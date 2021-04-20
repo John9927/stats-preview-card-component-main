@@ -97,14 +97,10 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    margin: auto;
-    background: #1b1938;
-    height: 655px;
-    border-radius: 8px;
+    height: 670px;
   }
 
   .card__image {
-    display: flex;
     width: 85%;
     height: 235px;
     background: url('./../assets/images/image-header-mobile.jpg') no-repeat;
@@ -126,7 +122,6 @@
   }
 
   .card__label {
-    display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 400px;
@@ -145,7 +140,6 @@
 
   .card__description {
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.75);
     font-size: 13px;
     width: 100%;
     margin-bottom: 25px;
